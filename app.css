@@ -1,0 +1,117 @@
+body {
+  background-color: #ffbcbc;
+  font-family: "Encode Sans SC", sans-serif;
+  color: #cd113b;
+}
+#nav-bar,
+#footer {
+  min-width: 100vw;
+  background-color: #c6b4ce;
+}
+#footer {
+  color: white;
+}
+
+#nav-brand,
+#footer-brand {
+  color: #cd113b;
+  font-family: "Yomogi", cursive;
+  font-size: 1.7rem;
+}
+#nav-brand:hover {
+  color: #cd113b;
+}
+#nav-link li a {
+  color: white;
+
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+#nav-link li a:hover {
+  color: #cd113b;
+}
+#first-c-line {
+  padding: 3rem 0;
+}
+#hand2 {
+  max-width: 70%;
+}
+.content-img img {
+  max-width: 70%;
+}
+.content-img {
+  display: flex;
+  justify-content: center;
+}
+section:nth-of-type(4) {
+  margin-bottom: 4rem;
+}
+
+#moc-heading h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+#moc-heading h2 span {
+  color: #cd113b;
+}
+.content-areas {
+  padding: 0 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 1580px) {
+  .content-areas {
+    padding: 0 8rem;
+  }
+}
+@media (max-width: 1295px) {
+  #moc-heading h2 {
+    font-size: 2rem;
+  }
+  .content-areas {
+    padding: 0 3rem;
+  }
+  .content-areas h2 {
+    font-size: 2rem;
+  }
+  .content-areas div {
+    font-size: 1rem;
+  }
+  .content-areas img {
+    display: none;
+  }
+}
+@media (max-width: 914px) {
+  .content-areas {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-areas {
+    margin: 2.5rem 0;
+    padding: 0 3rem;
+  }
+  .content-areas h2 {
+    margin-bottom: 1.5rem;
+  }
+  #hand2 {
+    max-width: 100%;
+  }
+  .content-img img {
+    max-width: 100%;
+  }
+  #first-c-line {
+    padding: 0 0;
+  }
+  section:nth-of-type(4) {
+    margin-bottom: 7rem;
+  }
+  body {
+    line-height: 2rem;
+  }
+}
